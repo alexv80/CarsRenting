@@ -1,0 +1,12 @@
+﻿@model RentCar.Core.Models.CarsCollection
+@{
+    ViewData["Title"] = "Rent cars";
+}
+
+<div class="text-center">
+
+    @foreach (var c in Model.Cars)
+    {
+        @Html.Partial("ProductSummary", c)
+    }
+</div>

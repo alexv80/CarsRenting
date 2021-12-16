@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5a9a5929-fadd-434f-ae50-8ae0d957be39": {
+      "ProjectGuid": "5a9a5929-fadd-434f-ae50-8ae0d957be39",
+      "DisplayName": "CarsWebApi.Database",
+      "ColorIndex": 0
+    },
+    "1055b3a8-b3d9-43a7-a9c4-e615b5757f8d": {
+      "ProjectGuid": "1055b3a8-b3d9-43a7-a9c4-e615b5757f8d",
+      "DisplayName": "CarsWebApi.Web",
+      "ColorIndex": 1
+    },
+    "d6d7a662-6ad7-4bfa-960f-3a43fe135c47": {
+      "ProjectGuid": "d6d7a662-6ad7-4bfa-960f-3a43fe135c47",
+      "DisplayName": "CarsWebApi.BL",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

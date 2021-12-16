@@ -1,0 +1,15 @@
+C:\Repos\RentCar\CarsWebApi.Database\obj\Debug\net5.0\CarsWebApi.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\RentCar\CarsWebApi.Database\obj\Debug\net5.0\CarsWebApi.Database.AssemblyInfoInputs.cache
+C:\Repos\RentCar\CarsWebApi.Database\obj\Debug\net5.0\CarsWebApi.Database.AssemblyInfo.cs
+C:\Repos\RentCar\CarsWebApi.Database\obj\Debug\net5.0\CarsWebApi.Database.csproj.CoreCompileInputs.cache
+C:\Repos\RentCar\CarsWebApi.Database\bin\Debug\net5.0\CarsWebApi.Database.deps.json
+C:\Repos\RentCar\CarsWebApi.Database\bin\Debug\net5.0\CarsWebApi.Database.runtimeconfig.json
+C:\Repos\RentCar\CarsWebApi.Database\bin\Debug\net5.0\CarsWebApi.Database.runtimeconfig.dev.json
+C:\Repos\RentCar\CarsWebApi.Database\bin\Debug\net5.0\CarsWebApi.Database.dll
+C:\Repos\RentCar\CarsWebApi.Database\bin\Debug\net5.0\ref\CarsWebApi.Database.dll
+C:\Repos\RentCar\CarsWebApi.Database\bin\Debug\net5.0\CarsWebApi.Database.pdb
+C:\Repos\RentCar\CarsWebApi.Database\obj\Debug\net5.0\CarsWebApi.Database.dll
+C:\Repos\RentCar\CarsWebApi.Database\obj\Debug\net5.0\ref\CarsWebApi.Database.dll
+C:\Repos\RentCar\CarsWebApi.Database\obj\Debug\net5.0\CarsWebApi.Database.pdb
+C:\Repos\RentCar\CarsWebApi.Database\obj\Debug\net5.0\CarsWebApi.Database.genruntimeconfig.cache
+C:\Repos\RentCar\CarsWebApi.Database\obj\Debug\net5.0\CarsWebApi.Database.csproj.AssemblyReference.cache
