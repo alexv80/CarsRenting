@@ -12,4 +12,4 @@ spec:
   type: service
   lifecycle: production
   owner: team-b
-  system: "podcast
+  system: 'podcast'
