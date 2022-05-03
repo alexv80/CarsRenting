@@ -5,9 +5,9 @@ metadata:
   namespace: default
   description: vim3 description
 annotations:
-   backstage.io/managed-by-location: url:https://github.com/alexv80/CarsRenting/blob/main/test.yaml
-   backstage.io/managed-by-origin-location: url:https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all-components.yaml
-   backstage.io/source-location: url:https://github.com/backstage/backstage/tree/master/packages/catalog-model/examples/components/
+  backstage.io/managed-by-location: url:https://github.com/alexv80/CarsRenting/blob/main/test.yaml
+  backstage.io/managed-by-origin-location: url:https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all-components.yaml
+  backstage.io/source-location: url:https://github.com/backstage/backstage/tree/master/packages/catalog-model/examples/components/
 spec:
   type: service
   lifecycle: production
