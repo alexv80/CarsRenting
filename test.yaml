@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: vim-artist-web
+  name: vim3-artist-web
   namespace: default
-  description: vim description
+  description: vim3 description
   annotations:
      backstage.io/managed-by-location: url:https://github.com/alexv80/CarsRenting/blob/main/test.yaml
      backstage.io/managed-by-origin-location: url:https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all-components.yaml
