@@ -1,16 +1,38 @@
-
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: vim2-artist-web
-  namespace: default
-  description: vim2 description
-  annotations:
-    backstage.io/managed-by-location: url:https://github.com/alexv80/CarsRenting/blob/main/test.yaml
-    backstage.io/managed-by-origin-location: url:https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all-components.yaml
-    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/master/packages/catalog-model/examples/components/
-spec:
-  type: service
-  lifecycle: production
-  owner: team-a
-  system: 'audio-playback'
+    { 
+      apiVersion: 'backstage.io/v1alpha1',
+      kind: 'Component',
+      metadata:
+      { 
+        name: 'vim2-artist-web',
+        namespace: "default",
+        description: 'vim2 description',
+        annotations:
+        {
+          /* The edit URL should point to the source file for the metadata.*/
+          // "backstage.io/edit-url": "https://github.com/backstage/backstage/edit/master/packages/catalog-model/examples/components/wayback-search-component.yaml",
+          /* The value of this annotation is a so called location reference string, 
+             that points to the source from which the entity was originally fetched.
+             This annotation is added automatically by the catalog as it fetches the 
+             data from a registered location, and is not meant to normally be written by humans.*/
+          "backstage.io/managed-by-location": "url:https://github.com/backstage/backstage/tree/master/packagels/catalog-model/examples/components/wayback-search-component.yam",
+          /* The value of this annotation is a location reference string (see above). 
+             It points to the location, whose registration lead to the creation of the entity. 
+             In most cases, the backstage.io/managed-by-location and backstage.io/managed-by-origin-location will be equal. */
+          "backstage.io/managed-by-origin-location": "url:https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all-components.yaml",
+          /* A Location reference that points to the source code of the entity (typically a Component).
+            Useful when catalog files do not get ingested from the source code repository itself. 
+            If the URL points to a folder, it is important that it is suffixed with a '/' in order for 
+            relative path resolution to work consistently.*/
+          "backstage.io/source-location": "url:https://github.com/backstage/backstage/tree/master/packages/catalog-model/examples/components/",
+          /* The view URL should point to the canonical metadata YAML that governs this entity. */
+          /* "backstage.io/view-url": "https://github.com/backstage/backstage/tree/master/packages/catalog-model/examples/components/wayback-search-component.yaml" */
+        }
+      },
+      spec:
+      {
+        type: "service",
+        lifecycle: "audio-playback",
+        owner: "team-a",
+        system: "podcast"
+      }
+    }
