@@ -3,9 +3,9 @@
       "kind": "Component",
       "metadata":
       { 
-        "name": "vim4-artist-web",
+        "name": "vim2-artist-web",
         "namespace": "default",
-        "description": "vim4 description",
+        "description": "vim2 description",
         "annotations":
         {
           "backstage.io/managed-by-location": "url:https://github.com/backstage/backstage/tree/master/packagels/catalog-model/examples/components/wayback-search-component.yam",
