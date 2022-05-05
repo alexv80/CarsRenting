@@ -3,9 +3,9 @@
       "kind": "Component",
       "metadata":
       { 
-        "name": "vim3-artist-web",
+        "name": "vim4-artist-web",
         "namespace": "default",
-        "description": "vim3 description",
+        "description": "vim4 description",
         "annotations":
         {
           "backstage.io/managed-by-location": "url:https://github.com/backstage/backstage/tree/master/packagels/catalog-model/examples/components/wayback-search-component.yam",
@@ -17,7 +17,7 @@
       {
         "type": "service",
         "lifecycle": "production",
-        "owner": "team-a",
-        "system": "audio-playback"
+        "owner": "team-sitecore",
+        "system": "POC"
       }
    }
