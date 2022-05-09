@@ -1,51 +1,51 @@
     [{
-      apiVersion: backstage.io/v1alpha1,
-      kind: Component,
-      metadata: {
-        name: InventoryCore,
-        namespace: sitecore,
-        description: inventory core component,
-        annotations: {
-          backstage.io/managed-by-location: url:https://github.com/backstage/backstage/tree/master/packages/catalog-model/examples/components/wayback-search-component.yaml,
-          backstage.io/managed-by-origin-location: url:https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all-components.yaml,
-          backstage.io/source-location: url:https://bitbucket.org/stylelabsdev/sitecore.platform.inventory/src/master/src/Sitecore.Platform.Inventory.Core/,
-          backstage.io/techdocs-ref: url:https://bitbucket.org/stylelabsdev/sitecore.platform.inventory/src/master/README.md
+      "apiVersion": "backstage.io/v1alpha1",
+      "kind": "Component",
+      "metadata": {
+        "name": "InventoryCore",
+        "namespace": "sitecore",
+        "description": "inventory core component",
+        "annotations": {
+          "backstage.io/managed-by-location": "url:https://github.com/backstage/backstage/tree/master/packages/catalog-model/examples/components/wayback-search-component.yaml",
+          "backstage.io/managed-by-origin-location": "url:https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all-components.yaml",
+          "backstage.io/source-location": "url:https://bitbucket.org/stylelabsdev/sitecore.platform.inventory/src/master/src/Sitecore.Platform.Inventory.Core/",
+          "backstage.io/techdocs-ref": "url:https://bitbucket.org/stylelabsdev/sitecore.platform.inventory/src/master/README.md"
         },
-        links: [{ 
-          url: https://stylelabs.atlassian.net/jira/software/c/projects/PRODOT/boards/419/backlog?issueLimit=100,
-          title: My Dashboard}
+        "links": [{ 
+          "url": "https://stylelabs.atlassian.net/jira/software/c/projects/PRODOT/boards/419/backlog?issueLimit=100",
+          "title": "My Dashboard"}
         ]
       },
-      spec: {
-        type: service,
-        lifecycle: production,
-        owner: sitecore/PlatformSystemUA,
-        system: Inventory
+      "spec": {
+        "type": "service",
+        "lifecycle": "production",
+        "owner": "sitecore/PlatformSystemUA",
+        "system": "Inventory"
       }
     },
     {
-      apiVersion: backstage.io/v1alpha1,
-      kind: Component,
-      metadata: {
-        name: InventoryWebApi,
-        namespace: sitecore,
-        description: WebApi inventory part,
-        annotations: {
-          backstage.io/managed-by-location: url:https://github.com/backstage/backstage/tree/master/packagels/catalog-model/examples/components/wayback-search-component.yam,
-          backstage.io/managed-by-origin-location": "url:https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all-components.yaml,
-          backstage.io/source-location: url:https://bitbucket.org/stylelabsdev/sitecore.platform.inventory/src/master/src/Sitecore.Platform.Inventory.WebApi/,
-          backstage.io/techdocs-ref: url:https://bitbucket.org/stylelabsdev/sitecore.platform.inventory/src/master/README.md
+      "apiVersion": "backstage.io/v1alpha1",
+      "kind": "Component",
+      "metadata": {
+        "name": "InventoryWebApi",
+        "namespace": "sitecore",
+        "description": "WebApi inventory part",
+        "annotations": {
+          "backstage.io/managed-by-location": "url:https://github.com/backstage/backstage/tree/master/packagels/catalog-model/examples/components/wayback-search-component.yaml",
+          "backstage.io/managed-by-origin-location": "url:https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all-components.yaml",
+          "backstage.io/source-location": "url:https://bitbucket.org/stylelabsdev/sitecore.platform.inventory/src/master/src/Sitecore.Platform.Inventory.WebApi/",
+          "backstage.io/techdocs-ref": "url:https://bitbucket.org/stylelabsdev/sitecore.platform.inventory/src/master/README.md"
         },
-        links: [{ 
-          url: https://stylelabs.atlassian.net/jira/software/c/projects/PRODOT/boards/419/backlog?issueLimit=100,
-          title: My Dashboard}
+        "links": [{ 
+          "url": "https://stylelabs.atlassian.net/jira/software/c/projects/PRODOT/boards/419/backlog?issueLimit=100",
+          "title": "My Dashboard"}
         ]
       },
-      spec: {
-        type: api,
-        lifecycle: production,
-        owner: sitecore/PlatformSystemUA,
-        system: Inventory,
-        dependsOn: [component:sitecore/InventoryCore]
+      "spec": {
+        "type": "api",
+        "lifecycle": "production",
+        "owner": "sitecore/PlatformSystemUA",
+        "system": "Inventory",
+        "dependsOn": "[component:sitecore/InventoryCore]"
       }
     }]
