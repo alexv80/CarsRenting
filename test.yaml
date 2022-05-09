@@ -34,7 +34,7 @@
       "spec": {
         "type": 'service',
         "lifecycle": 'production',
-        "owner": 'PlatformSystemUA',
+        "owner": 'sitecore/PlatformSystemUA',
         "system": 'Inventory'
       }
     },
@@ -74,7 +74,7 @@
       "spec": {
         "type": 'api',
         "lifecycle": 'production',
-        "owner": 'PlatformSystemUA',
+        "owner": 'sitecore/PlatformSystemUA',
         "system": 'Inventory',
         "dependsOn": ["component:sitecore/InventoryCore"]
       }
@@ -110,7 +110,7 @@
       "spec": {
         "type": 'website',
         "lifecycle": 'production',
-        "owner": 'PlatformSystemUA',
+        "owner": 'sitecore/PlatformSystemUA',
         "system": 'Inventory'
       }
     },
@@ -145,7 +145,7 @@
       "spec": {
         "type": 'service',
         "lifecycle": 'production',
-        "owner": 'PlatformSystemINBE',
+        "owner": 'sitecore/PlatformSystemINBE',
         "system": 'Secrets'
       }
     },
@@ -180,7 +180,7 @@
       "spec": {
         "type": 'api',
         "lifecycle": 'production',
-        "owner": 'PlatformSystemINBE',
+        "owner": 'sitecore/PlatformSystemINBE',
         "system": 'Secrets'
       }
     }
